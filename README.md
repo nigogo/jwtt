@@ -12,7 +12,7 @@ Build the project:
 go build -o jwtt main.go
 ```
 
-Feed the JWT token to the `jwtt` command (use the `-t` flag to specify the token):
+Feed the JWT token to the `jwtt` command (use the `-t` flag to convert timestamps to a readable format):
 
 ```bash
 jwtt -t eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
